@@ -6,68 +6,50 @@ body {
     font-family: IRANSans;
 }
 
-.min-h-100{
-    min-height: 100%;
+.bg-dark-1 {
+    background: #313a46;
 }
 
-.top-0{
+header {
+    height: 70px;
     top: 0;
+    z-index: 1;
 }
 
-.line-height-70 {
-    line-height: 70px;
-}
-
-.height{
+footer {
     height: 70px;
 }
 
-.content-page {
-    margin-right: 260px;
-    padding: 70px 12px 65px;
-    height: 100%;
-}
-
-.rightside-menu {
-    width: 260px;
-    height: 100%;
-    position: fixed;
-    padding-top: 70px;
-}
-
-.logo {
-    line-height: 70px;
-    width: 260px;
-    position: fixed;
+.lg-logo {
     top: 0;
-}
-
-.navbar-custom {
-    min-height: 70px;
-    position: fixed;
-    top: 0;
-}
-
-.button-mobile {
-    border: none;
-    width: 60px;
-    font-size: 24px;
-    background-color: transparent;
-}
-
-.icon-search::before{
-    content: "\e80f";
-}
-
-/* .navbar-custom .topbar-menu li{
-    max-height: 70px;
-} */
-
-/* .navbar-custom .topbar-menu .nav-link:focus{
-    box-shadow: 0 0 0 #fff;
-}
-
-.navbar-custom .topbar-menu .nav-link{
-    padding: 0;
+    height: 70px;
     line-height: 70px;
+}
+
+.content {
+    z-index: 0;
+}
+
+.cardbody-mb2{
+    height: calc(100% - 7px);
+}
+
+/* *{
+    scrollbar-width: thin;
+}
+
+*::-webkit-scrollbar{
+    width: 8px;
+}
+
+*::-webkit-scrollbar-track{
+    background: #282f38;
+}
+
+*::-webkit-scrollbar-thumb{
+    background: #7c8086;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+    background: #555;
 } */
