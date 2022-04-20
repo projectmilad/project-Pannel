@@ -12,8 +12,6 @@ body {
 
 header {
     height: 70px;
-    top: 0;
-    z-index: 1;
     background-color: #fff;
 }
 
@@ -21,14 +19,17 @@ footer {
     height: 70px;
 }
 
+.max-vh-100{
+    max-height: 100vh;
+}
 .lg-logo {
     top: 0;
     height: 70px;
     line-height: 70px;
 }
 
-.content {
-    z-index: 0;
+.sidebar-scroll{
+    max-height: calc(100vh - 70px);
 }
 
 .button-menu-mobile{
